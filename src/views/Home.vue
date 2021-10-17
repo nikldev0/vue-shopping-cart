@@ -3,6 +3,7 @@
     <ProductDescriptionDrawer
       :product="product"
       :active="active.product_drawer"
+      @close-product-drawer="closeProductDrawer()"
     />
 
     <div class="product-cards-container">
@@ -48,6 +49,9 @@ export default {
       this.product = product;
       this.active.product_drawer = true;
       console.log(this.product);
+    },
+    closeProductDrawer() {
+      this.active.product_drawer = false;
     },
   },
   computed: {},
