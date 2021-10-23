@@ -1,12 +1,14 @@
 <template>
   <div class="productCard">
     <h3>{{ product.name }}</h3>
-    <h5>Price: £{{ product.price.toFixed(2) }}</h5>
+    <h5>Price: £ {{ product.price.toFixed(2) }}</h5>
     <p class="description">{{ description }}</p>
     <p class="text-muted">
       <em>{{ product.category }}</em>
     </p>
-    <button class="view-product-button" @click="$emit('view-product', product)">View Product</button>
+    <button class="view-product-button" @click="$emit('view-product', product)">
+      View Product
+    </button>
   </div>
 </template>
 

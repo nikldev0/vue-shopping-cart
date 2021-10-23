@@ -14,7 +14,6 @@
         @view-product="viewProduct($event)"
       />
     </div>
-    <CustomTextInput @customChange="logChange" />
   </div>
 </template>
 
@@ -23,14 +22,13 @@
 import items from "../data/items.js";
 import ProductSummaryCard from "../components/products/ProductSummaryCard.vue";
 import ProductDescriptionDrawer from "../components/products/ProductDescriptionDrawer.vue";
-import CustomTextInput from "../components/CustomTextInput.vue";
+
 
 export default {
   name: "Home",
   components: {
     ProductSummaryCard,
     ProductDescriptionDrawer,
-    CustomTextInput,
   },
   data() {
     return {
