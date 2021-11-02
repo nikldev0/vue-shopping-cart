@@ -8,7 +8,7 @@
 
 This project uses Vuex store and Vue router to create a shopping cart functionality for the frontend. It uses SCSS for styling.
 
-Users can add products and see cart totals on the requisite page, with data persistance available via local storage.
+Users can add products and see cart totals on the requisite page, with data persistence available via local storage.
 
 ![cart preview](./shopping-cart.gif)
 
