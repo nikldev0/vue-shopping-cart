@@ -18,6 +18,10 @@ Users can add products and see cart totals on the requisite page, with data pers
 2. Using class bindings depending on a router name match so the active page can be styled appropriately in the nav.
 3. Creating custom events using 'emit' to communicate between components and launch methods.
 
+## Possible improvements:
+
+1. Improve cart page styling for better readability.
+2. Add clear cart functionality. 
 
 ## Project setup
 ```
